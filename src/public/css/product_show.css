@@ -1,0 +1,138 @@
+.main {
+    width: 1512px;
+    min-height: 797px;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
+    background-color: #F8F8F8;
+    padding: 40px 120px;
+    box-sizing: border-box;
+}
+
+.link {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    align-items: flex-end;
+    width: 800px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.product-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image {
+    width: 374px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.file-upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.basic-info {
+    width: 396px;
+    margin-left: 40px;
+    flex-direction: column;
+}
+
+.product-bottom {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #4B4B4B;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #E0DFDE;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background: #E0DFDE;
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-submit {
+    width: 200px;
+    background: #F5C800;
+    color: #333;
+}
+
+.btn-delete {
+    background: transparent;
+    font-size: 28px;
+    color: red;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}

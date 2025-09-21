@@ -1,5 +1,3 @@
-# laravel-docker-template
-
 # アプリケーション名
 もぎたて
 
@@ -19,3 +17,10 @@ Lravel環境構築
 - PHP 8.3.6
 - Laravel 8.83.8
 - MySQL 8.0.26
+
+## ER図
+(/diagram.drawio.svg)
+
+## URL
+- 開発環境：http://localhost/products
+- phpMyAdmin：http://localhost:8080/

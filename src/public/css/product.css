@@ -1,0 +1,170 @@
+.main {
+    width: 1512px;
+    height: 1000px;
+    background-color: #F8F8F8;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
+    display: block;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.title {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin:0;
+    padding: 40px 40px;
+}
+
+.add-btn {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+
+.add-btn a {
+    background: #ff9900;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 240px;;
+    margin: 30px;
+    flex-shrink: 0;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-search {
+    width: 100%;
+    background: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sort {
+    margin-top: 30px;
+}
+
+.sort select {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.product-area {
+    flex: 1;
+    margin: 30px 30px 0 0;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 1;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.name {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination nav {
+    display: inline-block;
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 50%;
+    background: #fff;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination li.active span {
+    background: #ffcc00;
+    font-weight: bold;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 6px 12px;
+    border-radius: 50%;
+    background: #fff;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.active {
+    background: #ffcc00;
+    font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.header {
+    width: 1512px;
+    height: 53px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.header a {
+    font-family: "jsMath-cmti10", serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5C800;
+    text-decoration: none;
+    cursor: pointer;
+}
