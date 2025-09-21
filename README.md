@@ -19,7 +19,7 @@ Lravel環境構築
 - MySQL 8.0.26
 
 ## ER図
-(/diagram.drawio.svg)
+![ER図](./diagram.drawio.svg)
 
 ## URL
 - 開発環境：http://localhost/products
